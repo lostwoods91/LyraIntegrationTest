@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "LyraIntegrationTest",
+	"Description": "Try to extend Lyra by integrating a simple inventory and ability system",
+	"Category": "Game Features",
+	"CreatedBy": "Loris De Marchi",
+	"CreatedByURL": "https://github.com/lostwoods91/LyraIntegrationTest",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "LyraIntegrationTestRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"ExplicitlyLoaded": true,
+	"BuiltInInitialFeatureState": "Active"
+}
