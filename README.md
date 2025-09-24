@@ -14,6 +14,7 @@ Try to extend Lyra by integrating a simple inventory and ability system
 - 'Error: Native pointer usage in member declaration detected' (see above) because of my FMOD installed plugin.
 - Chestory's InventoryManagerComponent registration issue (see UInventoryManagerFixedComponent::OnComponentCreated() for details).
 - GameFeature plugins can depend from each other! This allow me to use ShooterCore base functionalities in GameFeature plugin and extend them!
+- LyraAbilitySets can grant abilities, effects and even attribute sets for you, avoiding a lot of boilerplate!
 
 ## Time spent
 5 hours - experience and game feature comprehension and setup
@@ -21,3 +22,4 @@ Try to extend Lyra by integrating a simple inventory and ability system
 2 hours - inventory system choice and usage test
 5 hours - inventory implementation (also struggled with and solved Chestory's InventoryManagerComponent registration issue)
 3 hours - implement B_EquipmentSpawner and equippable items
+1 hour - application of helmet's game effect
