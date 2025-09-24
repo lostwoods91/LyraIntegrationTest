@@ -2,6 +2,7 @@
 
 #include "IntegrationTestFunctionLibrary.h"
 
+#include "Equipment/LyraEquipmentInstance.h"
 #include "Inventory/InventoryFragment_EquippableItem.h"
 #include "Inventory/LyraInventoryItemInstance.h"
 
@@ -15,4 +16,12 @@ TSubclassOf<ULyraEquipmentDefinition> UIntegrationTestFunctionLibrary::GetEquipm
 	UInventoryFragment_EquippableItem* Fragment_EquippableItem)
 {
 	return Fragment_EquippableItem ? Fragment_EquippableItem->EquipmentDefinition : nullptr;
+}
+
+void UIntegrationTestFunctionLibrary::SetInstigator(ULyraEquipmentInstance* EquipmentInstance, UObject* InInstigator)
+{
+	if (EquipmentInstance)
+	{
+		EquipmentInstance->SetInstigator(InInstigator);
+	}
 }

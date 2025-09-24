@@ -19,4 +19,5 @@ Try to extend Lyra by integrating a simple inventory and ability system
 5 hours - experience and game feature comprehension and setup
 2 hours - lyra's itemization framework comprehension
 2 hours - inventory system choice and usage test
-5 hours - inventory implementation (also struggled with and solved InventoryManagerComponent registration issue)
+5 hours - inventory implementation (also struggled with and solved Chestory's InventoryManagerComponent registration issue)
+3 hours - implement B_EquipmentSpawner and equippable items

@@ -20,4 +20,7 @@ public:
 
 	UFUNCTION(BlueprintPure, Category = "Integration Test")
 	static TSubclassOf<ULyraEquipmentDefinition> GetEquipmentDefinition(UInventoryFragment_EquippableItem* Fragment_EquippableItem);
+
+	UFUNCTION(BlueprintCallable, Category = "Integration Test")
+	static void SetInstigator(ULyraEquipmentInstance* EquipmentInstance, UObject* InInstigator);
 };
